@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
-        android:text="Eye of the Midnight Sun"
+        android:text="@string/eye_of_the_midnight_sun"
         android:textSize="30sp"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -54,7 +54,7 @@
         android:id="@+id/button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="@string/next"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="@+id/guideline2" />
