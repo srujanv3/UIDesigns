@@ -28,11 +28,13 @@ class MainActivity : AppCompatActivity() {
             window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
         }
 
-
+        // Init animations
         val ttb = AnimationUtils.loadAnimation(applicationContext, R.anim.ttb)
         val btt = AnimationUtils.loadAnimation(applicationContext,R.anim.btt)
 
 
+
+        // Init components
         val text = findViewById<TextView>(R.id.header_tv)
         val button = findViewById<Button>(R.id.button)
 
